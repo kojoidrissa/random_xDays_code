@@ -14,4 +14,5 @@ names = ["John", "Jon", "Jonny", "Juan", "Johan"]
 for n in names:
     hash_object = hashlib.sha1(bytes(n, encoding='utf-8'))
     hex_dig = hash_object.hexdigest()
-    print (hex_dig)
+    # print (hex_dig)
+    print (len(hex_dig))
