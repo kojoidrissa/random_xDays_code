@@ -12,3 +12,12 @@ As part of my 30 Day Github Challenge, I'll be writing random bits of code. They
 
 ##Version number
 -  My long-anticipated personal version number generator.
+
+##D&D Player/IF thing?
+Also poorly designed. More an IDEA at this point
+
+###Basic ideas
+-  Use dictionaries to store stat data on PCs, NPCs and Mobs.
+-  Use random number generation to "roll dice" during encounters
+-  Use a database or files to store data and results? Not sure which I'll try first
+-  Is this going to be a game/campaign, or an Interactive Fiction deal? Maybe one of each?
