@@ -7,7 +7,7 @@ As part of my 30 Day Github Challenge, I'll be writing random bits of code. They
 -  For myself and to help encourage others to present
 
 ##K-Pop Video popularity monitor
--  Pulling views data from YouTube, comparing the changes in views overtime.
+-  Pulling views data from YouTube, comparing the changes in number of views overtime.
 -  This project is VERY under-designed at the moment
 
 ##Version number
