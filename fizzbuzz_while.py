@@ -9,7 +9,7 @@ while i <= 100:
     elif i % 3 == 0:
         print("Fizz")
     else:
-        print i
+        print (i)
     i +=1
 
 
