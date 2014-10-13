@@ -1,4 +1,4 @@
-#attempting the Fizzbuzz problem with a While loop
+# #attempting the Fizzbuzz problem with a While loop
 
 i = 1
 while i <= 100:
