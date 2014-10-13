@@ -1,4 +1,4 @@
-#attempting the Fizzbuzz problem with a While loop
+#attempting the print numbers from 1-10 Fizzbuzz problem
 
 i = 1
 while i <= 10:
