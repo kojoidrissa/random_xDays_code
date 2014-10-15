@@ -9,5 +9,7 @@ for line in f:
     students[student] = grade
     print (student + ":" + grade)
 
+f.close()
+
 print()
 print (students)
