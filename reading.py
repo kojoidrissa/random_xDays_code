@@ -1,4 +1,6 @@
 f = open("scores.txt", "r")
+#I should change this to 'new_scores.txt', the file I'm creating
+#with writing.py
 
 students ={}
 
