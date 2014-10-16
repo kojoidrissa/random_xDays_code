@@ -7,7 +7,12 @@ import random as rnd
 #AFTER I've determined that it's not "End". Eventually I'll want to test for
 #non-valid entries (non-numbers), but I'm not sure how to do that yet. :-)
 
-s = int(input("What die would you like to roll? Enter the number of sides "))
+while True:
+    s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
+    if s == "End":
+        break
+    else:
+        s = int(s)
 
-roll = rnd.randint(1, s)
-print (roll)
+    roll = rnd.randint(1, s)
+    print (roll)
