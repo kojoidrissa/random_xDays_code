@@ -2,10 +2,13 @@
 
 import random as rnd
 
-#Update this to include a loop that lets you keep rolling and an option to end (break)
-#when the input is "End". I should only convert the input to an int
-#AFTER I've determined that it's not "End". Eventually I'll want to test for
-#non-valid entries (non-numbers), but I'm not sure how to do that yet. :-)
+#Eventually I'll want to test for non-valid entries (non-numbers)
+#but I'm not sure how to do that yet. :-)
+
+#Now I need to make 'end' non-case sensitive. Or, do I want to use a try/exception here, to CATCH
+#the error?
+
+#Also, it might be nice to capture the rolls to a log file, for reference.
 
 while True:
     s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
