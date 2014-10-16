@@ -1,4 +1,4 @@
-f = open("new_scores", "w")
+f = open("new_scores.txt", "w")
 
 '''
 FINISH THIS;
@@ -6,3 +6,13 @@ FINISH THIS;
     write results to file
     close file
 '''
+
+while True:
+    student = input("Enter Student's name: ")
+    grade = input("Enter the student's grade: ")
+    if student or grade == 'quit':
+        break
+    f.write(student + "," + grade)
+    
+f.close()
+print("Thanks! We're done")
