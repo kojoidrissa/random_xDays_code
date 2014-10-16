@@ -13,6 +13,6 @@ while True:
         print("Thanks! We're done")
         break
     grade = input("Enter the student's grade: ")
-    f.write(student + "," + grade)
+    f.write(student + "," + grade + "\n")
 
 f.close()

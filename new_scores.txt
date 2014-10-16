@@ -1,1 +1,3 @@
-Amanada,97bob,76carl,100
+Apple,78
+Banana,100
+Charles,80
