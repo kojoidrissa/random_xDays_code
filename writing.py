@@ -9,10 +9,10 @@ FINISH THIS;
 
 while True:
     student = input("Enter Student's name: ")
-    grade = input("Enter the student's grade: ")
-    if student or grade == 'quit':
+    if student == 'quit':
+        print("Thanks! We're done")
         break
+    grade = input("Enter the student's grade: ")
     f.write(student + "," + grade)
-    
+
 f.close()
-print("Thanks! We're done")
