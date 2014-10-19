@@ -22,8 +22,9 @@ while True:
         s = int(s)
 
     roll = rnd.randint(1, s)
-    timestamp = dt.utcnow()
+    timestamp = str(dt.utcnow())#since f.write() only takes strings, I'm converting dt.utcnow()
+    #from it's native type, 'datetime.datetime'
     print (roll)
-    f.write(roll, ",", timestamp, "\n")
+    f.write(roll + "," + timestamp + "\n")
 
 f.close()
