@@ -15,7 +15,7 @@ def new_log():
     f = open(logname, "x")
 
 #I'm going with the "append to existing file" option
-f = open("dice_log", "a")
+f = open("dice_log.txt", "a")
 '''I found TWO solutions to my problem, in terms of file modes 'x' and 'a':
     'x'       create a new file and open it for writing
     'a'       open for writing, appending to the end of the file if it exists
