@@ -1,6 +1,9 @@
 #die rolling program inspired by "Introduction to Python" and my love of D&D 
 
 import random as rnd
+from datetime import datetime as dt
+
+f = open("dice_log.txt", "w")
 
 #Eventually I'll want to test for non-valid entries (non-numbers)
 #but I'm not sure how to do that yet. :-)
@@ -19,4 +22,8 @@ while True:
         s = int(s)
 
     roll = rnd.randint(1, s)
+    timestamp = dt.utcnow()
     print (roll)
+    f.write(roll, ",", timestamp, "\n")
+
+f.close()
