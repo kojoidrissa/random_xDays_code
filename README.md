@@ -21,3 +21,11 @@ Also poorly designed. More an IDEA at this point
 -  Use random number generation to "roll dice" during encounters
 -  Use a database or files to store data and results? Not sure which I'll try first
 -  Is this going to be a game/campaign, or an Interactive Fiction deal? Maybe one of each?
+
+###Dice Roller
+-  started with dice.py; it now 
+    -  rolls until you type "End"
+    -  keeps a log of
+        +  type of die rolled
+        +  roll result
+        +  time stamp of roll

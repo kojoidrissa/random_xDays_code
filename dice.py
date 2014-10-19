@@ -3,7 +3,7 @@
 import random as rnd
 from datetime import datetime as dt
 
-def new_log():
+def new_log_file():
     '''
     creates a NEW log file with a UTC timestamp in the name
     I'm not going to use this NOW, as it will create a new log file every time I run this code
