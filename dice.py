@@ -14,6 +14,8 @@ f = open("dice_log.txt", "w")
 #Also, it might be nice to capture the rolls to a log file, for reference. I'll use UTC timestamps
 #to identify each roll
 
+#I also need to include an option to roll multiple dice at once, like 2d6.
+
 while True:
     s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
     if s == "End":
@@ -21,11 +23,13 @@ while True:
     else:
         s = int(s)
 
+    die = ("d" + str(s)) #for capturing the TYPE of die rolled
+
     roll = rnd.randint(1, s)
     timestamp = str(dt.utcnow())#since f.write() only takes strings, I'm converting dt.utcnow()
     #from it's native type, 'datetime.datetime'
     print (roll)
     roll_string = str(roll) #converting to string because that's all f.write() will take
-    f.write(roll_string + "," + timestamp + "\n")
+    f.write(die + roll_string + "," + timestamp + "\n")
 
 f.close()
