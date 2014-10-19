@@ -25,6 +25,7 @@ while True:
     timestamp = str(dt.utcnow())#since f.write() only takes strings, I'm converting dt.utcnow()
     #from it's native type, 'datetime.datetime'
     print (roll)
-    f.write(roll + "," + timestamp + "\n")
+    roll_string = str(roll) #converting to string because that's all f.write() will take
+    f.write(roll_string + "," + timestamp + "\n")
 
 f.close()
