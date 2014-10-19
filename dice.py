@@ -4,6 +4,9 @@ import random as rnd
 from datetime import datetime as dt
 
 f = open("dice_log.txt", "w")
+#Can I concatenate a timestamp string to the end of the file name, to make a new log file
+#each time I run this? Now it's just overwriting the file, 
+#which is fine for testing, not production
 
 #Eventually I'll want to test for non-valid entries (non-numbers)
 #but I'm not sure how to do that yet. :-)
@@ -30,6 +33,6 @@ while True:
     #from it's native type, 'datetime.datetime'
     print (roll)
     roll_string = str(roll) #converting to string because that's all f.write() will take
-    f.write(die + roll_string + "," + timestamp + "\n")
+    f.write(die + "," + roll_string + "," + timestamp + "\n")
 
 f.close()
