@@ -3,7 +3,26 @@
 import random as rnd
 from datetime import datetime as dt
 
-f = open("dice_log.txt", "w")
+def new_log():
+    '''
+    creates a NEW log file with a UTC timestamp in the name
+    I'm not going to use this NOW, as it will create a new log file every time I run this code
+    which is something I don't want at the moment
+    '''
+
+    logstamp = str(dt.utcnow())
+    logname = "dice_log_" + logstamp + ".txt"
+    f = open(logname, "x")
+
+#I'm going with the "append to existing file" option
+f = open("dice_log", "a")
+'''I found TWO solutions to my problem, in terms of file modes 'x' and 'a':
+    'x'       create a new file and open it for writing
+    'a'       open for writing, appending to the end of the file if it exists
+    So, I should be able to create a new file with a timestamp, OR just keep appending
+    to the end of an existing file, depending on the timestamp of each new entry. Now
+    to consider which option I prefer.
+'''
 #Can I concatenate a timestamp string to the end of the file name, to make a new log file
 #each time I run this? Now it's just overwriting the file, 
 #which is fine for testing, not production
