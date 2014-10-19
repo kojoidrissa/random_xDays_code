@@ -8,7 +8,8 @@ import random as rnd
 #Now I need to make 'end' non-case sensitive. Or, do I want to use a try/exception here, to CATCH
 #the error?
 
-#Also, it might be nice to capture the rolls to a log file, for reference.
+#Also, it might be nice to capture the rolls to a log file, for reference. I'll use UTC timestamps
+#to identify each roll
 
 while True:
     s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
