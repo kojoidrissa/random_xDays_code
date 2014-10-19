@@ -1,4 +1,4 @@
-f = open("new_scores1.txt", "w")
+f = open("new_scores.txt", "w")
 
 '''
 FINISH THIS;
