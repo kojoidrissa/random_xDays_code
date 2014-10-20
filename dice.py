@@ -9,6 +9,7 @@ def new_log_file():
     I'm not going to use this NOW, as it will create a new log file every time I run this code
     which is something I don't want at the moment
     '''
+    #How would I change this to make it a stand-alone module?
 
     logstamp = str(dt.utcnow())
     logname = "dice_log_" + logstamp + ".txt"
