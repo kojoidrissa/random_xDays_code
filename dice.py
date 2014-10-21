@@ -60,6 +60,7 @@ while True:
         f.write(die + "," + roll_string + "," + timestamp + "\n")
 
     except:
+        print()
         print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
 
 
