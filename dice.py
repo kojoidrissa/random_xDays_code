@@ -29,17 +29,17 @@ f = open("dice_log.txt", "a")
 #Can I concatenate a timestamp string to the end of the file name, to make a new log file
 #each time I run this? Now it's just overwriting the file, 
 #which is fine for testing, not production
+    #See "new_log_file()"
 
 #Eventually I'll want to test for non-valid entries (non-numbers)
 #but I'm not sure how to do that yet. :-)
-
-
+    #DONE
 #Now I need to make 'end' non-case sensitive. Or, do I want to use a try/exception here, to CATCH
 #the error?
-
+    #went with the try/except
 #Also, it might be nice to capture the rolls to a log file, for reference. I'll use UTC timestamps
 #to identify each roll
-
+    #DONE
 #I also need to include an option to roll multiple dice at once, like 2d6.
 
 while True:
@@ -47,7 +47,9 @@ while True:
     if s == "End":
         break
 
-    #I'd originally had the s statment below in an 'else' clause, but realized I didn't need it.
+    #I'd originally had the "s = int(s)" statement below in an 'else' clause of the if above
+    #but realized I didn't need it
+    #now I'm using try/except to test for invalid input
     try:
         s = int(s)
         die = ("d" + str(s)) #for capturing the TYPE of die rolled
