@@ -33,6 +33,7 @@ f = open("dice_log.txt", "a")
 #Eventually I'll want to test for non-valid entries (non-numbers)
 #but I'm not sure how to do that yet. :-)
 
+
 #Now I need to make 'end' non-case sensitive. Or, do I want to use a try/exception here, to CATCH
 #the error?
 
@@ -47,7 +48,10 @@ while True:
         break
 
     #I'd originally had the s statment below in an 'else' clause, but realized I didn't need it.
-    s = int(s)
+    try:
+        s = int(s)
+    except:
+        print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
 
     die = ("d" + str(s)) #for capturing the TYPE of die rolled
 
