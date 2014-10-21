@@ -45,8 +45,9 @@ while True:
     s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
     if s == "End":
         break
-    else:
-        s = int(s)
+
+    #I'd originally had the s statment below in an 'else' clause, but realized I didn't need it.
+    s = int(s)
 
     die = ("d" + str(s)) #for capturing the TYPE of die rolled
 
