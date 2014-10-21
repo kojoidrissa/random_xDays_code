@@ -50,16 +50,17 @@ while True:
     #I'd originally had the s statment below in an 'else' clause, but realized I didn't need it.
     try:
         s = int(s)
+        die = ("d" + str(s)) #for capturing the TYPE of die rolled
+
+        roll = rnd.randint(1, s)
+        timestamp = str(dt.utcnow())#since f.write() only takes strings, I'm converting dt.utcnow()
+        #from it's native type, 'datetime.datetime'
+        print (roll)
+        roll_string = str(roll) #converting to string because that's all f.write() will take
+        f.write(die + "," + roll_string + "," + timestamp + "\n")
+
     except:
         print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
 
-    die = ("d" + str(s)) #for capturing the TYPE of die rolled
-
-    roll = rnd.randint(1, s)
-    timestamp = str(dt.utcnow())#since f.write() only takes strings, I'm converting dt.utcnow()
-    #from it's native type, 'datetime.datetime'
-    print (roll)
-    roll_string = str(roll) #converting to string because that's all f.write() will take
-    f.write(die + "," + roll_string + "," + timestamp + "\n")
 
 f.close()
