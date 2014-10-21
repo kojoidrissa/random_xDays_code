@@ -43,7 +43,7 @@ f = open("dice_log.txt", "a")
 #I also need to include an option to roll multiple dice at once, like 2d6.
 
 while True:
-    s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit ")
+    s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit | ")
     if s == "End":
         break
 
@@ -61,7 +61,7 @@ while True:
 
     except:
         print()
-        print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
+        print("You must enter an integer. That's a whole number. Like 7. You entered " + s.upper())
 
 
 f.close()
