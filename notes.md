@@ -1,7 +1,7 @@
 #Notes on stuff I learn while writing code
 
 ##Property-based testing
-Patrick Waters introduced this to me
+Patrick Wheeler introduced this to me
 
 -  [5-minute intro to property-based testing in Python with hypothesis](http://www.slideshare.net/FranklinChen/handout-23548866)
 -  [QuickCheck](http://en.wikipedia.org/wiki/QuickCheck) is the library that Patrick mentioned
