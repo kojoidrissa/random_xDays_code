@@ -68,7 +68,3 @@ while True:
 
 f.close()
 
-##Now I'll try to create a die object that I can use
-class die():
-    def __init__(self, sides):
-        self.sides = sides
