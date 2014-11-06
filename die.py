@@ -6,12 +6,15 @@ from datetime import datetime as dt
 class die():
     def __init__(self, sides):
         self.sides = sides
-        print (rnd.randint(1, int(self.sides)))
+        # print (rnd.randint(1, int(self.sides)))
 
     def roll(self):
-        print (rnd.randint(1, int(self.sides)))
+        result = (rnd.randint(1, int(self.sides)))
+        return result
 
 
-d6 = die(6)
+d20 = die(20)
 # print(d6.roll)
-print(d6)
+# print(d20)
+who = d20.roll()
+print (who)
