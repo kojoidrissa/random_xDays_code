@@ -12,9 +12,17 @@ class die():
         result = (rnd.randint(1, int(self.sides)))
         return result
 
+d = input("How many dice would you like to roll? ")
+side = input("What sided die would you like to roll? ")
 
-d20 = die(20)
-# print(d6.roll)
-# print(d20)
-who = d20.roll()
-print (who)
+newdie = die(side)
+
+for i in range(0, int(d)):
+    print(newdie.roll())
+    
+
+# d20 = die(20)
+# # print(d6.roll)
+# # print(d20)
+# who = d20.roll()
+# print (who)
