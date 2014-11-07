@@ -1,6 +1,6 @@
 ##My effort to code a die object
 import random as rnd
-from datetime import datetime as dt
+from datetime import datetime as dt #don't need this now; from older code; may use
 
 ##Now I'll try to create a die object that I can use
 class die():
