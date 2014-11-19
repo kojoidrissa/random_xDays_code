@@ -27,4 +27,6 @@ print('''This is showing me the results from the "data = response.json"; the typ
 #this shows me the various data catagories stored in each YouTube Entry listing
 for i in data['feed']['entry']:
     print (type(i), len(i))
+    # print (i['yt$statistics']['viewCount'])
+    print (i['title']['$t'])
 #Looks like I'm after ['title']['$t'] and ['yt$statistics']
