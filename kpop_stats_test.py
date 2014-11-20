@@ -11,8 +11,14 @@ print("NEW CODE STARTS HERE!!!")
 print('''This is showing me the results from the "data = response.json"; the type and length of each
     element in "data['feed']['entry']" ''')
 #this shows me the various data catagories stored in each YouTube Entry listing
+f = open("youTube_data.txt", "a")
+
 for i in data['feed']['entry']:
-    print (type(i), len(i))
+    # for key in i:
+    #     print (key, )
     # print (i['yt$statistics']['viewCount'])
-    print (i['title']['$t'])
+    f.write(str(type(i)) + " " + str(len(i)) + " " + i['title']['$t'] + "\n" + str(i) + "\n" + "\n")
+    print (len(i), i['title']['$t'])
 #Looks like I'm after ['title']['$t'] and ['yt$statistics']
+
+f.close()
