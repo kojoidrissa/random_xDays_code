@@ -23,8 +23,12 @@ Patrick Wheeler introduced this to me
 -  [Why Can't Programmers.. Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
     +  This has been a thing since 2007?!?
 
-#Jobs for coders and related issues
+##Jobs for coders and related issues
 -  [The Most Common Jobs For The Rich, Middle Class And Poor](http://www.npr.org/blogs/money/2014/10/16/356176018/the-most-popular-jobs-for-the-rich-middle-class-and-poor)
     +  See where 'software developer' falls in?
 -  [40 Years Of Income Inequality In America, In Graphs](http://www.npr.org/blogs/money/2014/10/02/349863761/40-years-of-income-inequality-in-america-in-graphs)
     +  A data viz exercise. Also, why be on the WRONG side of this?
++  [More proof that it’s Python’s world and we’re just living in it](http://www.itworld.com/article/2694519/big-data/more-proof-that-it-s-python-s-world-and-we-re-just-living-in-it.html)
++  [Why Python might just be all you need](http://www.itworld.com/article/2694889/big-data/why-python-might-just-be-all-you-need.html)
++  [The Fastest-Growing Tech Skills: Dice Report](http://news.dice.com/2014/09/15/fastest-growing-tech-skills-dice-report/)
+    +  I should probably use Dice for some salary range research 
