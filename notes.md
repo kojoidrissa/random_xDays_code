@@ -16,4 +16,9 @@ Patrick Wheeler introduced this to me
 ##YouTube API info (for my K-Pop stats app)
 -  [YouTube API v2.0 – Video Feed Types](https://developers.google.com/youtube/2.0/developers_guide_protocol_video_feeds)
     +  I THINK this is what I'm currently using. But it's going away!
--  
+-  [Getting Started with the YouTube Data API](https://developers.google.com/youtube/v3/getting-started)
+-  [YouTube Data API (v3)](https://developers.google.com/youtube/v3/)
+
+##Fizzbuzz: it's a thing
+-  [Why Can't Programmers.. Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
+    +  This has been a thing since 2007?!?
