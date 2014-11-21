@@ -22,3 +22,9 @@ Patrick Wheeler introduced this to me
 ##Fizzbuzz: it's a thing
 -  [Why Can't Programmers.. Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
     +  This has been a thing since 2007?!?
+
+#Jobs for coders and related issues
+-  [The Most Common Jobs For The Rich, Middle Class And Poor](http://www.npr.org/blogs/money/2014/10/16/356176018/the-most-popular-jobs-for-the-rich-middle-class-and-poor)
+    +  See where 'software developer' falls in?
+-  [40 Years Of Income Inequality In America, In Graphs](http://www.npr.org/blogs/money/2014/10/02/349863761/40-years-of-income-inequality-in-america-in-graphs)
+    +  A data viz exercise. Also, why be on the WRONG side of this?
