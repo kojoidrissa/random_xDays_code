@@ -9,3 +9,11 @@ Patrick Wheeler introduced this to me
 -  [Exploring Test-Driven Development with QuickCheck](http://www.natpryce.com/articles/000795.html)
 
 
+##Git tips and tricks
+-  [Push a new local branch to a remote Git repo and track it too](http://stackoverflow.com/questions/2765421/push-a-new-local-branch-to-a-remote-git-repo-and-track-it-too)
+-  [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
+
+##YouTube API info (for my K-Pop stats app)
+-  [YouTube API v2.0 – Video Feed Types](https://developers.google.com/youtube/2.0/developers_guide_protocol_video_feeds)
+    +  I THINK this is what I'm currently using. But it's going away!
+-  
