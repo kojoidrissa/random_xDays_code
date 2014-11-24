@@ -12,6 +12,7 @@ Patrick Wheeler introduced this to me
 ##Git tips and tricks
 -  [Push a new local branch to a remote Git repo and track it too](http://stackoverflow.com/questions/2765421/push-a-new-local-branch-to-a-remote-git-repo-and-track-it-too)
 -  [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
+-  [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 
 ##YouTube API info (for my K-Pop stats app)
 -  [YouTube API v2.0 – Video Feed Types](https://developers.google.com/youtube/2.0/developers_guide_protocol_video_feeds)
