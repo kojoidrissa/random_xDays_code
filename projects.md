@@ -19,4 +19,5 @@ Inspired by [PyCon UY 2013: From a Python beginner to a Django developer in 6 mo
 -  OpenPyXL
 -  [Python Mentors - Python Core Mentorship](http://pythonmentors.com/)
     +  If I can contribute to Drupal Core, I can contribute to Python Core
+    +  [Python Developer's Guide](https://docs.python.org/devguide/)
 +  Django
