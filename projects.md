@@ -9,4 +9,8 @@ Inspired by [PyCon UY 2013: From a Python beginner to a Django developer in 6 mo
 -  It'll help me catalog what I've got as I move towards a more minimal life, which is important to me.
 -  I should probably build in a function to let you track the size of your inventory or number of possessions over time. I can see how that would be useful to people wanting to build Tiny Houses too.
 
+##Tiny House Traders
+- I'm sure I've got some of this documented somewhere. Basically, as people taking on the Tiny House Life downsize from their old lives, they may want to share their excess stuff with OTHER Tiny House people first. So, kind of like a market place? Perhaps it'll connect to the Inventory site above?
 
+##Where's That Been in Django
+-  I keep hearing how great Django is for GeoSpatial stuff
