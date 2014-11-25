@@ -14,3 +14,9 @@ Inspired by [PyCon UY 2013: From a Python beginner to a Django developer in 6 mo
 
 ##Where's That Been in Django
 -  I keep hearing how great Django is for GeoSpatial stuff
+
+##Contributing to a project
+-  OpenPyXL
+-  [Python Mentors - Python Core Mentorship](http://pythonmentors.com/)
+    +  If I can contribute to Drupal Core, I can contribute to Python Core
++  Django
