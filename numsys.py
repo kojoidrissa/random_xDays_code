@@ -1,0 +1,1 @@
+print("Dec 25 is Oct " + oct(25))
