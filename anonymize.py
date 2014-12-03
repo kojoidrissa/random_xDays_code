@@ -16,7 +16,10 @@ New approach to testing this idea
 3. make list of  first 5 char of each hash; search it for duplicates
 4. repeat step 4 with 1st and 2nd 5 char of each hash (simulate personal, family name)
 """
-names = ["John", "Jon", "Jonny", "Juan", "Johan"]
+names = []
+
+for n in range(0, 500):
+    names.append(n)
 
 for n in names:
     hash_object = hashlib.sha1(bytes(n, encoding='utf-8'))
