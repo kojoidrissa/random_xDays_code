@@ -27,12 +27,14 @@ family_name = []
 for n in names:
     hash_object = hashlib.sha1(bytes(n, encoding='utf-8'))
     hex_dig = hash_object.hexdigest()
-    print (hex_dig, ";", len(hex_dig), ";", type(hex_dig))
+    #I don't need to print this anymore
+    #also, doesn't version control mean I can DELETE instead of comment out?
+    # print (hex_dig, ";", len(hex_dig), ";", type(hex_dig))
     personal_name.append(hex_dig[:5])
     family_name.append(hex_dig[5:12])
 
-print("There are ", len(personal_name), "personal names", set(personal_name), "are unique")
-print("There are ", len(family_name), "family names", set(family_name), "are unique")
+print("There are ", len(personal_name), "personal names; ", len(set(personal_name)), "are unique")
+print("There are ", len(family_name), "family names; ", len(set(family_name)), "are unique")
 
 full_name = []
 print("full_name has", len(full_name), "elements")
