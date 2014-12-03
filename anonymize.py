@@ -33,6 +33,7 @@ for n in names:
     personal_name.append(hex_dig[:5])
     family_name.append(hex_dig[5:12])
 
+#Change this to calculate percentages?
 print("There are ", len(personal_name), "personal names; ", len(set(personal_name)), "are unique")
 print("There are ", len(family_name), "family names; ", len(set(family_name)), "are unique")
 
@@ -43,7 +44,10 @@ for i in family_name:
     new_name = [i, personal_name[family_name.index(i)]]
     full_name.append(new_name)
 
-print("full_name now has", len(full_name), "elements")
-# print(full_name)
-
-
+print("full_name now has", len(full_name), "elements.")
+'''
+since set uses hashes and I can't hash a list, how do I test to see
+if full_name is made up of unique elements? Does it matter, if each
+element in it's constituent lists is unique AND I know those lists aren't
+equal? This is where I need more formal math/CS. :-/
+'''
