@@ -34,7 +34,7 @@ for n in names:
     family_name.append(hex_dig[5:12])
 
 #Change this to calculate percentages?
-print("There are ", len(personal_name), "personal names; ", len(set(personal_name)), "are unique")
+print("There are ", len(personal_name), "personal names; ", len(set(personal_name))/len(personal_name), "are unique")
 print("There are ", len(family_name), "family names; ", len(set(family_name)), "are unique")
 
 full_name = []
