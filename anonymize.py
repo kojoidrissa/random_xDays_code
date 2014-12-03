@@ -31,8 +31,8 @@ for n in names:
     personal_name.append(hex_dig[:5])
     family_name.append(hex_dig[5:12])
 
-print("There are ", len(personal_name), "personal names")
-print("There are ", len(family_name), "family names")
+print("There are ", len(personal_name), "personal names", set(personal_name), "are unique")
+print("There are ", len(family_name), "family names", set(family_name), "are unique")
 
 full_name = []
 print("full_name has", len(full_name), "elements")
@@ -42,6 +42,6 @@ for i in family_name:
     full_name.append(new_name)
 
 print("full_name now has", len(full_name), "elements")
-print(full_name)
+# print(full_name)
 
 
