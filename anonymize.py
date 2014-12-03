@@ -11,8 +11,8 @@ import hashlib
 # print("New EXAMPLE")
 """
 New approach to testing this idea
-1. create a sequence of numbers, approximateing the number of names/records
-2. hash each number
+1. create a sequence of numbers, approximating a number of unique records: DONE
+2. hash each number: DONE
 3. make list of  first 5 char of each hash; search it for duplicates
 4. repeat step 4 with 1st and 2nd 5 char of each hash (simulate personal, family name)
 """
