@@ -34,4 +34,14 @@ for n in names:
 print("There are ", len(personal_name), "personal names")
 print("There are ", len(family_name), "family names")
 
+full_name = []
+print("full_name has", len(full_name), "elements")
+
+for i in family_name:
+    new_name = [i, personal_name[family_name.index(i)]]
+    full_name.append(new_name)
+
+print("full_name now has", len(full_name), "elements")
+print(full_name)
+
 
