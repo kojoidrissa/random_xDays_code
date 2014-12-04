@@ -55,8 +55,11 @@ element in it's constituent lists is unique AND I know those lists aren't
 equal? This is where I need more formal math/CS. :-/
 '''
 
+#printing 10 random `full_name` entries, to see what they look like
+print("\n")
+print(str.upper("ten random full names"))
 for i in range(0,10):
     rnd_index = rnd.randint(0,(len(full_name)-1))
-    print(full_name[rnd_index])
+    print(rnd_index, full_name[rnd_index])
 
 
