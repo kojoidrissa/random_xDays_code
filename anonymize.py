@@ -1,5 +1,6 @@
 #!/anaconda/bin/python
 import hashlib
+import random as rnd
 #print hashlib.algorithms
 
 # hash_object = hashlib.sha1(b'Hello World')
@@ -53,3 +54,8 @@ if full_name is made up of unique elements? Does it matter, if each
 element in it's constituent lists is unique AND I know those lists aren't
 equal? This is where I need more formal math/CS. :-/
 '''
+
+for i in range(0,10):
+    print(full_name[rnd.randint(0,(len(full_name)-1))])
+
+
