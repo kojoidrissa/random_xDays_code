@@ -56,6 +56,7 @@ equal? This is where I need more formal math/CS. :-/
 '''
 
 for i in range(0,10):
-    print(full_name[rnd.randint(0,(len(full_name)-1))])
+    rnd_index = rnd.randint(0,(len(full_name)-1))
+    print(full_name[rnd_index])
 
 
