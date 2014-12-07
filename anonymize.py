@@ -62,4 +62,8 @@ for i in range(0,10):
     rnd_index = rnd.randint(0,(len(full_name)-1))
     print(rnd_index, full_name[rnd_index])
 
+##Trying a treacherous live demo. I failed. :-(
+print(personal_name[0])
+
+hash_object = hashlib.sha1(bytes(n, encoding='utf-8'))
 
