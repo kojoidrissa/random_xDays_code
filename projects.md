@@ -15,6 +15,11 @@ Inspired by [PyCon UY 2013: From a Python beginner to a Django developer in 6 mo
 ##Where's That Been in Django
 -  I keep hearing how great Django is for GeoSpatial stuff
 
+##TX/RX projects
+-  Tracking volunteer hours
+-  Automatic tracking of Tables, their owners and when people cancel their Table Hacker memberships
+-  Mission Monitor Board for Open House tour duty
+
 ##Contributing to a project
 -  OpenPyXL
 -  [Python Mentors - Python Core Mentorship](http://pythonmentors.com/)
