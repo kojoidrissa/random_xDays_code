@@ -26,6 +26,7 @@ f = open("dice_log.txt", "a")
     to the end of an existing file, depending on the timestamp of each new entry. Now
     to consider which option I prefer.
 '''
+
 #Can I concatenate a timestamp string to the end of the file name, to make a new log file
 #each time I run this? Now it's just overwriting the file, 
 #which is fine for testing, not production
