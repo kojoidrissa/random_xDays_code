@@ -1,0 +1,1 @@
+This directory is for the "solutions" to 'quiz' questions for my 2015-01-31 Intro to Programming class
