@@ -1,7 +1,7 @@
 f = open("new_scores.txt", "w")
 
 '''
-FINISH THIS;
+FINISHED THIS;
     While loop to read in student names and grades; 'quit' to break
     write results to file
     close file
