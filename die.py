@@ -16,10 +16,14 @@ die_num = input("How many dice would you like to roll? ")
 die_sides = input("What sided die would you like to roll? ")
 
 newdie = die(die_sides)
+roll_total = 0
 
 for i in range(0, int(die_num)):
-    print(newdie.roll())
-    
+    outcome = newdie.roll()
+    print(outcome)
+    roll_total += outcome
+
+print ("Total", str(die_num)+"d"+str(die_sides), "=", roll_total)
 
 # d20 = die(20)
 # # print(d6.roll)
