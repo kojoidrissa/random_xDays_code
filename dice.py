@@ -45,7 +45,7 @@ f = open("dice_log.txt", "a")
 
 while True:
     s = input("What die would you like to roll? Enter the number of sides. Or enter 'End' to quit | ")
-    if s == "End":
+    if s.lower() == "end":
         break
 
     #I'd originally had the "s = int(s)" statement below in an 'else' clause of the if above
@@ -64,7 +64,7 @@ while True:
 
     except:
         print()
-        print("You must enter an integer. That's a whole number. Like 7. You entered " + s.upper())
+        print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
 
 
 f.close()
