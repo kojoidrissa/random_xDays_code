@@ -64,7 +64,7 @@ while True:
 
     except:
         print()
-        print("You must enter an integer. That's a whole number. Like 7. You entered " + s)
+        print("You must enter an integer. That's a whole number. Like 7. You entered " + "'" + s + "'")
 
 
 f.close()
