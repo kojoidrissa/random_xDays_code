@@ -3,7 +3,7 @@ import random as rnd
 from datetime import datetime as dt #don't need this now; from older code; may use
 
 ##Now I'll try to create a die object that I can use
-class die():
+class Die():
     def __init__(self, sides):
         self.sides = sides
         # print (rnd.randint(1, int(self.sides)))
@@ -15,7 +15,7 @@ class die():
 die_num = input("How many dice would you like to roll? ")
 die_sides = input("What sided die would you like to roll? ")
 
-newdie = die(die_sides)
+newdie = Die(die_sides)
 roll_total = 0
 
 for i in range(0, int(die_num)):
@@ -25,7 +25,7 @@ for i in range(0, int(die_num)):
 
 print ("Total", str(die_num)+"d"+str(die_sides), "=", roll_total)
 
-# d20 = die(20)
+# d20 = Die(20)
 # # print(d6.roll)
 # # print(d20)
 # who = d20.roll()
